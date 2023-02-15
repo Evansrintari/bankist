@@ -75,7 +75,16 @@ const displayMovement = function (movements) {
     containerMovements.insertAdjacentHTML('afterbegin', html);
   });
 };
+
 displayMovement(account1.movements);
+
+const calcPrintBalance = function (movements) {
+  const balance = movements.reduce((acc, cur) => acc + cur, 0);
+  labelBalance.textContent = `${balance} EUR`;
+};
+
+calcPrintBalance(account1.movements);
+
 const creeateUserNames = function (accs) {
   accs.forEach(function (acc) {
     acc.username = acc.owner
