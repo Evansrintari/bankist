@@ -103,7 +103,7 @@ console.log(accounts);
 /////////////////////////////////////////////////
 // LECTURES
 
-/*const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
 let arr = ['a', 'b', 'c', 'd', 'e'];
@@ -115,7 +115,6 @@ console.log(arr1.at(0));
 console.log(arr1[arr1.length - 1]);
 console.log(arr1.slice(-1)[0]);
 console.log(arr1.at(-1));
-*/
 
 // const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 // for (const movement of movements) {
