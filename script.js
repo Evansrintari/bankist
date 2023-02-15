@@ -83,11 +83,12 @@ const creeateUserNames = function (accs) {
       .split(' ')
       .map(name => name[0])
       .join('');
-    return username;
+    // we are doing side effect that is why we are not returning
   });
 };
 
-creeateUserNames('Steven Thomas Williams');
+creeateUserNames(accounts);
+console.log(accounts);
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
